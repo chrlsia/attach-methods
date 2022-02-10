@@ -16,9 +16,11 @@ func main() {
 
 	fmt.Printf("porsche color is : %v\n", porsche.color)
 	fmt.Printf("porsche style is : %v\n", porsche.body)
+	fmt.Printf("porsche is %v\n", porsche.accelerate())
 
 	fmt.Printf("bentley color is : %v\n", bentley.color)
 	fmt.Printf("bentley style is : %v\n", bentley.body)
+	fmt.Printf("bentley is %v\n", bentley.accelerate())
 
 }
 
